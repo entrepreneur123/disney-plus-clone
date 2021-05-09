@@ -3,6 +3,15 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
+import React from "react";
+import Detailed from './components/Detailed';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
