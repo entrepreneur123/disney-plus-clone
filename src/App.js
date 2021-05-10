@@ -1,10 +1,10 @@
 import React from 'react';
 import { Counter } from './features/counter/Counter';
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import React from "react";
-import Detailed from './components/Detailed';
+import Header from './components/Header'
+import Home from './components/Home'
+import Detail from './components/Detail'
+import Login from './components/Login'
 
 import {
   BrowserRouter as Router,
@@ -16,7 +16,22 @@ import {
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Router>
+        <Header />
+        <Switch>
+          <Route path ="/login">
+            <Login />
+          </Route>
+          <Route path="/detail">
+            <detail />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+
+      </Router>
+      
       <Home />
     </div>
   );

@@ -43,6 +43,7 @@ const Content  = styled.div`
 `
 const wrap = styled.div`
     border-radius:10px;
+    cursor: pointer;
     overflow: hidden;
     border: 3px solid rgba(249,249,249,0.1);
     box-shadow: rgb(0 0 0/69%) 0px 26px 30px -10px,
