@@ -6,7 +6,7 @@ function Login() {
         <Container>
             <CTA>
                 <CTALogoOne src= "/images/cta-logo-one.svg" />
-                <Signup>GET ALL DONE</Signup>
+                <SignUp>GET ALL DONE</SignUp>
                 <Description>
                     Get Premier Acess to Raya and the last Dragon for an additional fee with disney + subscription
                     As of 5/10/2021,the price of Disney + and the Disney bundle will increase by 2$.
@@ -21,7 +21,7 @@ function Login() {
 export default Login
 
 
-const Cointainer = styled.div`
+const Container = styled.div`
      position: relative;
      height: calc(100vh-10px);
      display: flex;
